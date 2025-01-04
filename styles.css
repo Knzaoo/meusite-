@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: #0b74de;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header .btn {
+  background: white;
+  color: #0b74de;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+.fichas {
+  text-align: center;
+}
+
+.ficha-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ficha-card h3 {
+  margin-top: 0;
+}
+
+.ficha-card span {
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ficha-card .btn {
+  background: #0b74de;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #f4f4f4;
+  margin-top: 20px;
+}
